@@ -1,26 +1,27 @@
 {
-  "name": "eatdeburger-master",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Restaurant App",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.1",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sudan20215/EatDeBurger.git"
+    "url": "git+https://github.com/DKMitt/burger.git"
   },
-  "author": "",
+  "author": "D K Mittlestaedt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sudan20215/EatDeBurger/issues"
+    "url": "https://github.com/DKMitt/burger/issues"
   },
-  "homepage": "https://github.com/Sudan20215/EatDeBurger#readme"
+  "homepage": "https://github.com/DKMitt/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0"
+  }
 }
